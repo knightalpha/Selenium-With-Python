@@ -31,7 +31,7 @@ onetrip_radio = driver.find_element_by_css_selector("input[value = oneway]")
 print("Status of one trip radio button", onetrip_radio.is_selected())   # print status of radio button
 
 
-# ele.send_keys("pk.airsqn@gmail.com")
+# ele.send_keys("username")
 # ele1.send_keys("password")
 
 # driver.find_element_by_name("commit").click()
