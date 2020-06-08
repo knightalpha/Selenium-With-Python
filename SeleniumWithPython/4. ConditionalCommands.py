@@ -21,7 +21,6 @@ ele1.send_keys("mercury")
 driver.find_element_by_name("login").click()
 
 # ele = driver.find_element_by_name("login")
-
 # ele1 = driver.find_element_by_name("password")
 
 roundtrip_radio_button = driver.find_element_by_css_selector("input[value = roundtrip]")
