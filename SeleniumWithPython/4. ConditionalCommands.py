@@ -32,7 +32,7 @@ print("Status of one trip radio button", onetrip_radio.is_selected())   # print 
 
 
 # ele.send_keys("pk.airsqn@gmail.com")
-# ele1.send_keys("India%17")
+# ele1.send_keys("password")
 
 # driver.find_element_by_name("commit").click()
 driver.quit()
