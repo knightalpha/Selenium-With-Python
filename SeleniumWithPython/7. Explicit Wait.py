@@ -35,6 +35,7 @@ wait = WebDriverWait(driver, 10)    # Max time for the webdriverwait to wait
 
 element = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='stopFilter_stops-0']")))
 element.click()
+
 time.sleep(3)
 
 driver.quit()
